@@ -15,7 +15,7 @@ for i in range (0,l-(l%3)):
     times.append(float(o[1]))
 
 avg = sum(times)*3/len(times)
-print(avg)
+print("Average team result: " + str(avg))
 taken = []
 while len(taken)/4 < l/3:
     bestdif = 100
